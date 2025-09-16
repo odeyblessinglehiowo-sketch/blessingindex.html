@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Loan form</title>
+<style>
+body {
+background-color: #e6f0ff; }
+form { width: 100%; }
+label { display: block; margin-top: 10px; }
+input, select, textarea { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; }
+.row { display:flex; gap:10px; }
+.row > div { flex:1; }
+button { margin-top: 12px; padding: 10px 16px; }
+</style>
+</head>
+<body>
+<h1 style="text-align:center;">Blessing Loan Enterprise</h1>
+<h3 style="text-align:center;">Loan Application Form</h3>
+
+<form action="#">
+<label for="name">Full Name</label>
+<input type="text" id="name" name="Full Name" placeholder="Full Name">
+
+<label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="insert@example.com">
+
+<label for="applicant_number">Applicant Number</label>
+<input type="number" id="applicant_number" name="number" placeholder="e.g +234 8145471258">
+
+<div class="column">
+<div><label for="gender">Gender</label>
+<select id="gender" name="gender">
+<option value="">Choose...</option>
+<option value="female">Female</option>
+<option value="male">Male</option>
+</select>
+</div>
+
+<label for="date">Date of Birth</label>
+<input type="date" id="date" name="Date of Birth">
+
+<label for="home address">Home Address</label>
+<input type="text" id="home address" name="Home Address">
+
+<label for="amount">loan_amount_requested</label>
+<input type="number" id="amount" name="loan_amount_requested">
+
+<label for="purpose">Loan Purpose</label>
+<textarea id="purpose" name="purpose" rows="4"></textarea>
+
+<div class="column">
+<div><label for="duration">Repayment Duration</label>
+<select id="duration" name="Repayment Duration">
+<option value="">Choose...</option>
+<option value="months">6 months</option>
+<option value="months">12 months</option>
+<option value="months">24 months</option>
+</select>
+</div>
+
+<label for="guarantor">Guarantor's Full Name</label>
+<input type="text" id="guarantor" name="Guarantor's Full Name">
+
+<label for="phone number">Guarantor's Phone Number</label>
+<input type="tel" id="guarantor_number" name="Guarantor's Phone Number">
+
+<label for="password">Password</label>
+<input type="password" id="password" name="Password">
+
+<button type="submit">Submit Appication Now</button>
+
+<p style="text-align: left;"><small>for enquries reach out to me through:</small></p>
+<p style="text-align: left;">📞 +234 8145471258</p>
+<a href="mailto:odeyblessinglehiowo@gmail.com">📧 odeyblessinglehiowo@gmail.com</a>
+
+<div style="text-align:right;">
+<img src="facebook.png" width="30" height="30">
+<img src="x.png" width="30" height="30">
+<img src="instagram.jpeg" width="30" height="30">
+<img src="linkedin.jpeg" width="30" height="30">
+</div>
+
+</form>
+</body>
+</html>
+
